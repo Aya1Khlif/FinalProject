@@ -1,0 +1,104 @@
+.KO-main-contener{
+    border-radius: 0.625rem;
+    background: #FFF;
+      background-color: white;
+      padding: 1.12rem 2rem;
+     
+}
+   .KO-skills{
+       display: flex;
+       align-items: center;
+   }
+   @media (max-width:700px){
+       .KO-skills{
+           flex-direction: column;
+       }
+   }
+
+ /*   @media (max-width:1299px){
+    .KO-main-contener{
+           max-width:35rem !important;
+       }
+   } */
+.KO-main-button2{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--clr-main);
+    font-size: 28px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+.KO-main-pargrth{
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    /* margin-top: 0.7rem; */
+    color: var(--focal-x-disable, #938c8c);
+    margin-bottom: 0 !important;
+}
+.KO-value1{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding:3px;
+    max-height: 20px;
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 18px;
+}
+.KO-value2{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding:3px  ;
+    max-height: 20px;
+    width: 200px;
+    margin-right: 30px;
+}
+.KO-Update{
+    color: var(--clr-brightness-blue);
+    cursor: pointer;
+
+}
+.KO-Delete{
+    color: var(--clr-danger);
+    cursor: pointer;
+}
+.KO-card-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .KO-heding{
+
+    color: var(--focal-x-font-color, #282828);
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+    }
+    .KO-pargrath{
+    color: var(--focal-x-disable, #938C8C);
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem;
+    }
+    .KO-main-icon{
+        display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+    }
+    .KO-date{
+        font-size: 14px;
+        color: gray;
+        
+    }

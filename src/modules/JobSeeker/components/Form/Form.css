@@ -1,0 +1,207 @@
+.roww-ah{
+    margin-top: 4rem;
+}
+.Ah_titleOfInfo {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+body {
+    background-image: url("../../asset/imgs/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Ah_formAllInput {
+    width: 92%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    
+}
+
+.Ah_formAllInput::-webkit-input-placeholder {
+    color: #888;
+
+    /* focal X/Secondary text : Montserrat 16 px Regular */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 150% */
+}
+select,
+option {
+    color: #888;
+
+    /* focal X/Secondary text : Montserrat 16 px Regular */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.Ah_formLabel {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.Ah_formStar {
+    color: var(--Error, #EA4335);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.Ah_Form {
+    /* flex: 20%; */
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Ah_formTitle {
+    text-align: center;
+}
+
+.Ah_boxFormContainer {
+    margin-top: 2rem;
+    /* width: 59.5rem; */
+    /* height: 23.125rem; */
+    padding: 2rem 3rem;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 20px 0px rgba(40, 40, 40, 0.15);
+    display: flex;
+    /* align-items: center; */
+
+}
+
+.Ah_formEnd {
+    text-align: end;
+    /* margin: 0.7rem; */
+}
+
+.Ah_formEndBack {
+    margin: 0.8rem;
+    border: none;
+    background-color: unset;
+}
+
+.Ah_formEndNext {
+    background-color: unset;
+    border: none;
+    color: var(--clr-main) !important;
+    margin: 0.8rem;
+    text-decoration: none;
+}
+
+.Ah_progresBar {
+    width: 60%;
+    height: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.Ah_progresBar div {
+    width: 25%;
+    height: 100%;
+    border-radius: 100px 0 0 100px;
+    background-color: orange;
+}
+/*----------------------------*/
+.Ah_progresBar1{
+    background-color: #D9D9D9;
+    width: 60%;
+    display: flex;
+    height: 0.3rem;
+}
+.Ah_firstProg{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    border-radius: 100px 0 0 100px;
+}
+.Line11{
+    width: 100%;
+    background-color: #D9D9D9;
+    transition: 0.4s ease-in;
+}
+.Ah_circelPorg{
+    position: relative;
+    bottom: 0.5rem;
+    width: 1rem;
+    padding: 0.6rem;
+    border-radius: 100px;
+    /* height: 5rem; */
+    /* z-index: 2; */
+    background-color: #D9D9D9;
+    transition: 0.6s ease-in;
+
+}
+@media screen and (max-width: 480px) {
+    .Ah_firstProg{
+        display:none;
+        
+    }
+    .Ah_boxFormContainer {
+        margin-top: 17rem;
+        width: 100%;
+        /* height: auto; */
+        /* text-align: center; */
+    }
+
+    .Ah_lineOfProgres {
+        display: none;
+    }
+
+    .Ah_formContainer {
+        width: 100%;
+    }
+
+    .Ah_formStart {
+        width: 100%;
+    }
+
+    .Ah_formBody {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Ah_boxFormContainer {
+        width: 100%;
+    }
+
+    .Ah_formContainer {
+        width: 100%;
+    }
+
+}

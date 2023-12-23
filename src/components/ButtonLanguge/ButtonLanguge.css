@@ -1,0 +1,51 @@
+.rn-group-languge  {
+    padding-right: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+  
+ }
+ .rn-group-languge button {
+     position: relative;
+     border: none;
+     background-color: transparent;
+     font-family: var(--font-family);
+     font-size: 0.85rem;
+     font-weight: 400;
+     line-height: 1.5rem;
+     font-style: normal;
+ }
+ 
+ .rn-arabic-btn::before {
+     content: '';
+     position: absolute;
+     top: 4px;
+ 
+     width: 2.5px;
+     height: 1.1rem;
+     background-color: var(--clr-main);
+     right:  0px;
+ }
+     
+ 
+ 
+ .rn-group-languge .rn-arabic-btn {
+     color: #938C8C;
+     margin-right: 7px;
+ 
+ }
+ 
+ .rn-group-languge .rn-english-btn {
+     color: var(--clr-main);
+     margin-left: 7px;
+ }
+ 
+ 
+ 
+ @media screen and (max-width:991px) {
+     .rn-group-languge  {
+         padding-right: 0;
+         margin-bottom: 2rem;
+         justify-content: center !important;
+       
+      }
+ }

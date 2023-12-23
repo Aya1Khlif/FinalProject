@@ -1,0 +1,224 @@
+.Ah_formFieldOfWork,
+.Ah_formExperience,
+.Ah_formSalaryRange,
+.Ah_formCitiesOfWork,
+.Ah_formJobLevel,
+.Ah_formEducationallevel,
+.Ah_formWorkType {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+.Ah_formSmallWrods {
+    color: var(--focal-x-disable, #938C8C);
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.Ah_radioCurrentJobStatus {
+    display: flex;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.Ah_radioForm {
+    padding-right: 1.5rem;
+}
+
+.Ah_GenderTybe {
+    margin-left: 0.5rem;
+}
+
+.Ah_formExperience {
+    position: relative;
+}
+
+.Ah_year {
+    position: absolute;
+    top: 1.7rem;
+    right: 7.7rem;
+}
+
+.Ah_buttExp1,
+.Ah_buttExp2 {
+    position: absolute;
+    padding: 0.5rem;
+    width: 25%;
+    outline: none;
+    border: none;
+    background-color: unset;
+    color: #000;
+    /* focal X/Primary text : Montserrat 20 px Regular */
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    /* 140% */
+}
+
+.Ah_buttExp1 {
+    top: 1.1rem;
+}
+
+.Ah_buttExp2 {
+    left: 18rem;
+    top: 1.1rem;
+}
+
+.Ah_formExper {
+    text-align: center;
+}
+
+@media screen and (max-width: 993px) {
+
+    .Ah_formFieldOfWork,
+    .Ah_formExperience,
+    .Ah_formSalaryRange,
+    .Ah_formCitiesOfWork,
+    .Ah_formJobLevel,
+    .Ah_formEducationallevel,
+    .Ah_formWorkType {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .Ah_formFieldOfWork,
+    .Ah_formExperience,
+    .Ah_formSalaryRange,
+    .Ah_formCitiesOfWork,
+    .Ah_formJobLevel,
+    .Ah_formEducationallevel,
+    .Ah_formWorkType {
+        width: 100%;
+    }
+    .Ah_year {
+        position: absolute;
+        top: 1.7rem;
+        right: 15rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 30rem;
+        top: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .Ah_year {
+        position: absolute;
+        top: 1.7rem;
+        right: 4rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 11rem;
+        top: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .Ah_buttExp1 {
+        top: 1.1rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 27rem;
+        top: 1.1rem;
+    }
+
+    .Ah_year {
+        top: 1.7rem;
+        right: 12rem;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .Ah_buttExp1 {
+        top: 1.1rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 27rem;
+        top: 1.1rem;
+    }
+
+    .Ah_year {
+        top: 1.7rem;
+        right: 12rem;
+    }
+
+}
+@media screen and (max-width: 570px) {
+    .Ah_buttExp1 {
+        top: 1.1rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 21rem;
+        top: 1.1rem;
+    }
+
+    .Ah_year {
+        top: 1.7rem;
+        right: 10rem;
+    }
+
+}
+@media screen and (max-width: 570px) {
+    .Ah_buttExp1 {
+        top: 1.1rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 21rem;
+        top: 1.1rem;
+    }
+
+    .Ah_year {
+        top: 1.7rem;
+        right: 5rem;
+    }
+
+}
+@media screen and (max-width: 464px) {
+    .Ah_buttExp1 {
+        top: 1.1rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 18rem;
+        top: 1.1rem;
+    }
+
+    .Ah_year {
+        top: 1.7rem;
+        right: 5rem;
+    }
+
+}
+@media screen and (max-width: 464px) {
+    .Ah_buttExp1 {
+        top: 1.1rem;
+    }
+
+    .Ah_buttExp2 {
+        left: 15rem;
+        top: 1.1rem;
+    }
+
+    .Ah_year {
+        top: 1.7rem;
+        right: 5rem;
+    }
+
+}

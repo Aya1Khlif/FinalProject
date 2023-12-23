@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HD_section-JobLogin a{
+   text-decoration: none;
+}
+.HD_section-JobLogin{
+    background-image: url('./../../assets//img-login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 3.7rem);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+/* style all paragraphs */
+.HD_boxTitlle{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*End style all paragraphs */
+
+
+/* style ...Create New Account as */
+.HD_titlle{
+    color: black;
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    word-wrap: break-word
+}
+/* End style ...Create New Account as */
+
+.HD_box{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+}
+.HD_box .BusinessOwner{
+
+    color: #938C8C;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 28px;
+    word-wrap: break-word
+}
+.HD_box .jobSeeker{
+    color: #282828;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 28px;
+    word-wrap: break-word
+}
+.jobSeeker::after{
+    background-color: var(--clr-main);
+    position: relative;
+    display: block;
+    content: '';
+    width: 64px;
+    height: 3px;
+    left: 1%;
+    bottom: -1px;
+}
+
+.HD_boxTitlle .p{
+    color: #938C8C;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    padding-top: 19px;
+}
+
+/*boxTwo style */
+.HD_boxTwo{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    padding-top: 18px;
+}
+.HD_boxTwo .account{
+    color: #938C8C;
+    font-size: 12px;
+    font-family: var(--font-family);    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.HD_boxTwo .Create{
+    color: #282828;
+    font-size: 16px;
+    font-family: var(--font-family); 
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word
+}
+/*End boxTwo style */
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 700px){
+
+    .HD_section-JobLogin{
+        overflow: hidden;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .HD_section-JobLogin{
+       
+        margin-top: 2rem;
+    }
+
+    .HD_section-JobLogin{
+        overflow: hidden;
+    }
+
+
+    .HD_boxTitlle{
+        padding-top: 20%;
+        
+    }
+    
+}
+
+
+
+
+@media screen and  (min-width: 501px) and (max-width: 600px){
+    .HD_boxTitlle{
+        padding-top: 20%;
+        
+    }
+    .HD_boxTwo{
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+    .HD_boxTitlle{
+        padding-top: 20%;
+        
+    }
+    .HD_boxTwo{
+        padding-top: 20px;
+    }
+}

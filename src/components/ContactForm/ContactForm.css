@@ -1,0 +1,60 @@
+.form2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat bold ";
+  font-family: var(--font-family);
+}
+
+.AKinput {
+  background: transparent !important;
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-family: var(--font-family, sans-serif);
+  font-weight: bold;
+  font-size: var(--fs-large);
+  color: var(--clr-black);
+}
+textarea[id="message"] {
+  width: 792px;
+  height: 180px;
+  top: 1834px;
+  left: 287px;
+  border-radius: 8px;
+}
+
+
+.AKP5 {
+  width: 140px;
+  height: 28px;
+  top: 1788px;
+  left: 287px;
+}
+@media (max-width: 768px) {
+  textarea[id="message"] {
+    height: 120px;
+    width: 100%;
+  }
+  .b {
+    width: 340px;
+    height: 150px;
+    top: 2046px;
+    left: 563px;
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 769px) {
+  textarea[id="message"] {
+    height: 180px;
+  }
+  .b {
+    width: 240px;
+    height: 150px;
+    top: 2046px;
+    left: 563px;
+    border-radius: 4px;
+  }
+}

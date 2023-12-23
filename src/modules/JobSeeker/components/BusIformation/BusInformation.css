@@ -1,0 +1,59 @@
+.Ah_formFullName,
+.Ah_formCity,
+.Ah_formDateOfBirth,
+.Ah_formJopTitle,
+.Ah_formAddress,
+.Ah_formGender {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+.Ah_radioGender {
+    display: flex;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.Ah_radioForm {
+    padding-right: 1.5rem;
+}
+
+.Ah_GenderTybe {
+    color: var(--focal-x-font-color, #282828);
+
+    /* focal X/Secondary text : Montserrat 16 px Regular */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 150% */
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 993px) {
+
+    .Ah_formFullName,
+    .Ah_formCity,
+    .Ah_formDateOfBirth,
+    .Ah_formJopTitle,
+    .Ah_formAddress,
+    .Ah_formGender {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .Ah_formFullName,
+    .Ah_formCity,
+    .Ah_formDateOfBirth,
+    .Ah_formJopTitle,
+    .Ah_formAddress,
+    .Ah_formGender {
+        width: 100%;
+    }
+}

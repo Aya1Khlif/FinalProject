@@ -1,0 +1,92 @@
+.KO-skillslist{
+    flex-shrink: 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+ }
+ 
+ .KO-skills-list{
+     display: flex;
+     align-items: center;
+   
+ }
+ .KO-Add-Items2{
+     display: flex;
+     align-items: center;
+     padding-left: 30px;
+ 
+ }
+ .KO-main-head{
+     color: var(--focal-x-disable, #938C8C);
+ font-family: var(--font-family);
+ font-size: 1.25rem;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 1.75rem; /* 140% */
+ }
+ .KO-skills-main h4{
+ 
+    width: 30%;
+
+}
+ @media (max-width:1599px){
+    .KO-Add-Items2{
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         align-content: flex-start;
+     }
+ }
+ @media (max-width:400px){
+     .KO-skills-list{
+         flex-direction: column;
+     }
+ }
+ .star-ratings{
+     width: 185px;
+ }
+ .star-ratings .widget-svg{
+     width: 25px !important;
+ }
+ .KO-main-button2{
+     border: none;
+     outline: none;
+     background-color: transparent;
+     color: var(--clr-main);
+     font-size: 28px;
+     cursor: pointer;
+ }
+ .KO-skills-main{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-bottom: 1px solid var(--clr-secondary-black);
+ }
+ 
+ /* .KO-skills-main h4{
+     font-family: var(  --font-family);
+     color: var(--clr-black);
+     font-size: var(--fs-small);
+     font-weight: 400;
+ 
+ } */
+ .KO-value4{
+     border: none;
+     outline: none;
+     border-bottom: 1px solid gray;
+     padding:3px  ;
+     max-height: 20px;
+     width: 100px;
+     margin-right: 30px;
+ }
+ .star-container{
+     padding-right: 0 !important;
+ }
+ .KO-skills-h4{
+     color: var(--focal-x-font-color, #282828);
+ font-family: Montserrat;
+ font-size: var(--fs-medium);
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.5rem; 
+ }

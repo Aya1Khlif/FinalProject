@@ -1,0 +1,30 @@
+.Ah_formPhoneNmber,
+.Ah_formFacebook,
+.Ah_formLinkedin,
+.Ah_formBehance {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+@media screen and (max-width: 993px) {
+
+    .Ah_formPhoneNmber,
+    .Ah_formFacebook,
+    .Ah_formLinkedin,
+    .Ah_formBehance {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .Ah_formPhoneNmber,
+    .Ah_formFacebook,
+    .Ah_formLinkedin,
+    .Ah_formBehance {
+        width: 100%;
+    }
+}

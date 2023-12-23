@@ -1,0 +1,36 @@
+.rn-grop-icon {
+    margin: 0.75rem auto;
+}
+
+.rn-grop-icon .rn-icon-1,
+.rn-grop-icon .rn-icon-2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 50% !important;
+    display: inline-block;
+}
+
+.rn-grop-icon .rn-icon-1 {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 2rem;
+}
+
+
+.rn-grop-icon a img {
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
+    /* .rn-grop-icon {
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .rn-grop-icon .rn-icon-1,
+    .rn-grop-icon .rn-icon-2 {
+        margin-right: 15px;
+    } */
+}
